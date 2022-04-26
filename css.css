@@ -930,7 +930,7 @@ span.hryup {
    object-fit: cover;
 }
 .ftc2::before {
-    content: "Fetured";
+    content: "Featured";
     position: absolute;
     top: -11%;
     left: 36%;

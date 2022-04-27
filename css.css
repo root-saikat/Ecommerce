@@ -1717,7 +1717,10 @@ footer{
     }
     .ht2 {
         flex-basis: 93%;
-    }
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8px;
+    }      
     .menu{
         display: none;
     }
@@ -1779,25 +1782,37 @@ footer{
     }
     .slide-text {
         position: absolute;
-        top: 8%;
-        left: 18%;
+        top: 7%;
+        left: 14%;
         display: grid;
         place-items: center;
         gap: 0px;
-        width: 62%;
+        width: 73%;
         font-size: x-large;
         color: white;
         background-color: rgba(221, 226, 231, .7);
         padding: 10px;
         height: fit-content;
-    }
+    }      
     /* coupon */
     .cp1{
         flex-direction: column;
     }
+    .dd-txt-hedr span {
+        display: none;
+    }
     /* trnd items */
-    .trnd-hd{
-        grid-template-columns: 19% 81%;
+    .trnd-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        gap: 1rem;
+        margin: 25px 0;
+    }
+    .trnd-hd {
+        grid-template-columns: 22% 78%;
+    }
+    .trnd-menu {
+        gap: 9px;
     }
     /* fetured */
     .fetured-ctgry {
@@ -1813,10 +1828,11 @@ footer{
         top: -45%;
         left: 36%;
     }
-    /* new items */
-    .trnd-hd {
-        grid-template-columns: 15% 85%;
+    .ftc-text{
+        top: 11%;
+        left: 3%;
     }
+    /* new items */
     .new-item-content{
         grid-template-columns: 50% auto;
         height: fit-content;
@@ -1859,6 +1875,10 @@ footer{
     }
     .newsl-middle{
         margin-left: 0;
+    }
+    .most-vw-ct {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
     }
     /* footer */
     .footer-top{

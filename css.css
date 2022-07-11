@@ -1926,3 +1926,29 @@ footer{
       
 
 }
+
+@media screen and (min-width: 1700px){
+  .s2 {
+    height: 451px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .Banner {
+    height: fit-content;
+    gap: 20px;
+  }
+  .Daily-deals {
+    grid-area: ddels;
+    margin-top: 0;
+  }
+  .bnrpd {
+    display: grid;
+    padding: 14% 0 14% 7%;
+    gap: 5px;
+  }
+  .bnrpd {
+    display: grid;
+    padding: 14% 0 14% 7%;
+    gap: 5px;
+  }
+}

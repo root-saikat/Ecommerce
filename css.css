@@ -1969,6 +1969,9 @@ footer{
   .Brands {
     gap: 8%;
   }
+  .footer-top {
+    margin-bottom: -50px;
+  }
   
   
   

@@ -1959,6 +1959,17 @@ footer{
     position: absolute;
     top: -7%;
   }
+  .n-3-img {
+    width: 90%;
+    height: 52%;
+  }
+  .items-3-2-1 {
+    overflow: hidden;
+  }
+  .Brands {
+    gap: 8%;
+  }
+  
   
   
 }
